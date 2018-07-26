@@ -1,0 +1,11 @@
+1- npm install
+2- npm install axios
+3- npm install -g live-server (live-server)
+4- npm install jquery
+5- (http://vortexbird.com/comandos-basicos-de-npm/)
+6- (<script src="https://unpkg.com/axios/dist/axios.min.js"></script>) ->>> (https://www.npmjs.com/package/axios)
+7- (trabajo en local con el servidor)
+
+
+
+

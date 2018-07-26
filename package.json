@@ -1,0 +1,15 @@
+{
+  "name": "searchjavascripts",
+  "version": "1.0.0",
+  "description": "app que permite buscar peliculas con api",
+  "main": "index.js",
+  "scripts": {
+    "start": "index.html"
+  },
+  "author": "Camilo Yate 2018",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "jquery": "^3.3.1"
+  }
+}
