@@ -1,0 +1,274 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: #000046; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1CB5E0, #000046); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.wrapper {
+    width: 95%;
+    margin: 0 auto;
+}
+
+#main {
+    height: 50px;
+    width: 50px;
+    background-color: gold;
+    border-radius: 50%;
+    position: fixed;
+    left: 3%;
+    top: 95%;
+    transform: translate(-50%, -50%);
+    z-index: 99;
+}
+
+#main_dos {
+    height: 50px;
+    width: 50px;
+    /*background-color: gold;*/
+    border-radius: 50%;
+    position: fixed;
+    left: 3%;
+    top: 95%;
+    z-index: 1;
+}
+
+#main_dos:hover {
+    cursor: pointer;
+}
+
+#main:hover {
+    cursor: pointer;
+}
+
+.h1_master {
+    margin-top: -596px;
+    margin-left: 242%;
+    color: yellow;
+}
+
+#icon {
+    height: 40px;
+    width: 39px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 44%;
+}
+
+#menu {
+
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    top: 13%;
+    left: 58%;
+    transform: translate(-50%, -50%);
+}
+
+#menu ul {
+    height: 300px;
+    width: 150px;
+    text-align: center;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#menu ul li {
+    font-family: 'Markazi Text', serif;
+    color: blue;
+    font-size: 30px;
+    padding: 10px;
+}
+
+#menu ul li:hover {
+    cursor: pointer;
+}
+
+#menu ul li:hover:before {
+
+    content: '';
+    height: 4px;
+    width: 15px;
+    background-color: black;
+    position: absolute;
+    margin-top: 18px;
+    margin-left: -20px;
+}
+
+#menu ul li:hover:after {
+
+    content: '';
+    height: 4px;
+    width: 15px;
+    background-color: black;
+    position: absolute;
+    margin-top: 18px;
+    margin-left: 5px;
+}
+
+#menu_circle_layer {
+
+    height: 0px;
+    width: 0px;
+    background-color: blue;
+    border-radius: 50%;
+    position: fixed;
+    left: 1.5%;
+    top: 94%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+#social_media {
+
+    height: 0px;
+    width: 0px;
+    background-color: gold;
+    border-radius: 50%;
+    position: fixed;
+    left: 100%;
+    top: 0%;
+    transform: translate(-50%, -50%);
+    z-index: 99;
+}
+
+#msg {
+    font-family: 'Markazi Text', serif;
+    font-size: 30px;
+    color: blue;
+    position: absolute;
+    top: 63%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+}
+
+#social_media ul {
+
+    width: 160px;
+    height: 100px;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 80%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+}
+
+.icon_img {
+    height: 45px;
+}
+
+#social_media ul li {
+
+    float: left;
+    margin: 4px;
+}
+
+#container {
+    opacity: 0;
+    visibility: hidden;
+}
+
+#social_circle_layer {
+
+    height: 0px;
+    width: 0px;
+    background-color: blue;
+    border-radius: 50%;
+    position: fixed;
+    left: 101%;
+    top: 1%;
+    transform: translate(-50%, -50%);
+    z-index: 9;
+
+}
+
+/*IMGAEN PRINCIPAL*/
+
+#bg {
+    height: 100vh;
+    width: 100%;
+    background-color: #E9F3FF;
+    position: fixed;
+    z-index: 1;
+    /*opacity: 1;*/
+    /*visibility: hidden;*/
+
+}
+
+/*#bg img {*/
+/*height: 150px;*/
+/*width: 550px;*/
+/*position: fixed;*/
+/*top: 50%;*/
+/*left: 50%;*/
+/*transform: translate(-50%, -50%);*/
+/*}*/
+
+.img_uno {
+    display: flex;
+    width: 100%;
+    margin: auto;
+}
+
+/*search master*/
+
+.search-box {
+
+    background: #2f3640;
+    position: absolute;
+    top: -955%;
+    left: 523%;
+    transform: translate(-50%, -50%);
+    height: 45px;
+    border-radius: 22px;
+    padding: 17px;
+}
+
+.search-box:hover > .search-txt {
+    width: 240px;
+    padding: 0 6px;
+}
+
+.search-box:hover > .search-btn {
+    background: none;
+}
+
+.search-btn {
+    color: #94c81f;
+    float: right;
+    width: 50px;
+    height: 40px;
+    border-radius: 50%;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: 0.4s;
+
+}
+
+.search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+}
+
+/*search master*/

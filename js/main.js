@@ -46,7 +46,7 @@ function getMovies(searchText) {
 
 function movieSelected(id) {
     sessionStorage.setItem('movieId', id);
-    window.location = '../hmtl-master/movie.html';
+    window.location = '../html-master/movie.html';
     console.log('error de data');
     return false;
 
