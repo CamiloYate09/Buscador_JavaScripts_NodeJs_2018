@@ -1,0 +1,128 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+
+}
+
+#main {
+
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    font-family: 'Markazi Text', serif;
+    font-size: 12px;
+    color: tomato;
+    line-height: 30px;
+}
+
+#d1 {
+    height: 25px;
+    width: 25px;
+    background-color: tomato;
+    position: absolute;
+    top: 25px;
+    left: 0;
+
+}
+
+#d2 {
+    height: 25px;
+    width: 25px;
+    background-color: tomato;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    animation: effect1 1s infinite linear;
+
+}
+
+#d3 {
+    height: 25px;
+    width: 25px;
+    background-color: tomato;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: effect2 1s infinite linear;
+
+}
+
+#d4 {
+    height: 25px;
+    width: 25px;
+    background-color: tomato;
+    position: absolute;
+    top: 0;
+    left: 25px;
+    animation: effect3 1s infinite linear;
+
+}
+
+#bigsqr{
+
+    position: relative;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    transform-origin: bottom left;
+    animation: bigSqrEffect 1s infinite linear;
+}
+
+@-webkit-keyframes effect1 {
+    0%{
+        transform: translateY(-50px);
+    }
+    25%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+    
+}
+
+@-webkit-keyframes effect2{
+    0%{
+        transform: translateY(-50px);
+    }
+    50%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+
+}
+
+@-webkit-keyframes effect3{
+    0%{
+        transform: translateY(-50px);
+    }
+    75%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+
+}
+
+
+@-webkit-keyframes bigSqrEffect{
+    0%{
+        transform: scale(1);
+    }
+    90%{
+     transform: scale(1);
+    }
+    100%{
+        transform: scale(0.5);
+    }
+
+}
